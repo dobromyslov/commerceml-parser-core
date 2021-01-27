@@ -18,7 +18,6 @@ Standard description: https://v8.1c.ru/tekhnologii/obmen-dannymi-i-integratsiya/
 * Suitable for browsers. Without NodeJS dependencies.
 * [xojs/xo](https://github.com/xojs/xo) with plugins for TypeScript - linting
 * [ESLint](https://github.com/eslint/eslint) - linting in the WebStorm with [ESLint plugin](https://plugins.jetbrains.com/plugin/7494-eslint)
-* [ts-jest](https://github.com/kulshekhar/ts-jest) - Testing & Coverage
 
 ## Installation
 
