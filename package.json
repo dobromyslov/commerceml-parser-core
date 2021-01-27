@@ -26,8 +26,7 @@
   "types": "dist",
   "sideEffects": false,
   "scripts": {
-    "example": "jest",
-    "test": "xo && jest",
+    "test": "xo",
     "release": "yarn build && np --no-2fa",
     "build": "del-cli dist && tsc"
   },
@@ -46,7 +45,6 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
     "create-ts-index": "^1.13.6",
