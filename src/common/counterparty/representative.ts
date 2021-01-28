@@ -1,5 +1,5 @@
-import {Address} from './address';
-import {ContactInfo} from './contact';
+import {Address} from '../address';
+import {ContactInfo} from '../contact';
 
 /**
  * CommerceML 2.10.

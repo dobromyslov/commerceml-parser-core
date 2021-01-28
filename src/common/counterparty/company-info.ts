@@ -1,4 +1,4 @@
-import {Address} from './address';
+import {Address} from '../address';
 import {Director} from './director';
 import {BankAccount} from './bank';
 
@@ -7,6 +7,7 @@ import {BankAccount} from './bank';
  * 1.1.72. РеквизитыЮрЛица
  *
  * Группа «РеквизитыЮрЛица» содержит описание реквизитов контрагента, специфических для юридических лиц.
+ * @deprecated These attributes are part of the counterparty interface.
  */
 export interface CompanyInfo {
   /**
@@ -23,7 +24,7 @@ export interface CompanyInfo {
    * Тип (компонент): ИННТип
    * Обязат. (Множ.): [0..1]
    *
-   * Индивидуальный номер налогоплательщика (ИНН).
+   * Индивидуальный номер налогоплательщика (ИНН) - 10 символов.
    */
   inn?: string;
 

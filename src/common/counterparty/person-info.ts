@@ -1,10 +1,11 @@
-import {Address} from './address';
+import {Address} from '../address';
 
 /**
  * CommerceML 2.10.
  * 1.1.71. РеквизитыФизЛица
  *
  * Группа «РеквизитыФизЛица» содержит описание реквизитов контрагента, специфическую для физических лиц.
+ * @deprecated These attributes are part of the counterparty interface.
  */
 export interface PersonInfo {
   /**
@@ -87,7 +88,7 @@ export interface PersonInfo {
    * Тип (компонент): ИННТип
    * Обязат. (Множ.): [0..1]
    *
-   * Индивидуальный номер налогоплательщика (ИНН).
+   * Индивидуальный номер налогоплательщика (ИНН) - 12 символов.
    */
   inn?: string;
 
@@ -97,6 +98,7 @@ export interface PersonInfo {
    * Обязат. (Множ.): [0..1]
    *
    * Код причины постановки на учет.
+   * @deprecated Persons and individual entrepreneurs do not have this.
    */
   kpp?: string;
 }

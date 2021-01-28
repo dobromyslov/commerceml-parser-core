@@ -1,6 +1,6 @@
-import {Address} from './address';
-import {ContactInfo} from './contact';
-import {IdentityDocument} from './identity-document';
+import {Address} from '../address';
+import {ContactInfo} from '../contact';
+import {IdentityDocument} from '../identity-document';
 
 /**
  * CommerceML 2.10.
