@@ -19,8 +19,7 @@
     "parser"
   ],
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "main": "dist",
   "types": "dist",
