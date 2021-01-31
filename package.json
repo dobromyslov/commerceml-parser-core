@@ -1,6 +1,6 @@
 {
   "name": "commerceml-parser-core",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Parser Core for CommerceML standard developed by 1c.ru. Used by commerceml-parser main package.",
   "license": "MIT",
   "repository": {
