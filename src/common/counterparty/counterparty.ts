@@ -91,7 +91,7 @@ export interface Counterparty {
    *
    * Полное наименование физического лица. Может включать обращение и суффикс.
    */
-  fullName: string;
+  fullName?: string;
 
   /**
    * Элемент: Обращение
@@ -174,7 +174,7 @@ export interface Counterparty {
    *
    * Официальное наименование юридического лица в соответствии с учредительными документами.
    */
-  officialName: string;
+  officialName?: string;
 
   /**
    * Элемент: КПП
